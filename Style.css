@@ -1,0 +1,180 @@
+
+/*---  Accueil ------*/
+
+.proverbe
+{
+  font-size: 4vw;
+  font-family: 'drop_stayregular';
+  text-align: center;
+  color:#9390A1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.HeaderImage
+{
+  padding-top: 55px;
+  width: 100vW;
+}
+
+@font-face 
+{
+  font-family: 'drop_stayregular';
+  src:  url('drop_stay-webfont.woff2') format('woff2'),
+        url('drop_stay-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.navbar-toggler .navbar-toggler-icon
+{
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+
+.navbar-toggler.navbar-toggler 
+{
+  border-color: rgb(255,102,203);
+  margin-right: 11px;
+}
+
+.ClubHistory
+{
+  margin-top: 100px;
+  margin-bottom: 140px;
+}
+.ClubLogo
+{
+  width: 18vw;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: 50px;
+}
+
+.TitlePresentation
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.Presentation 
+{
+  border: none;
+  text-align: justify;
+  font-size: 1em;
+}
+
+h2
+{
+  margin-bottom: 80px;
+  text-align: center;
+  font-size: 40px;
+}
+
+#carouselExampleCaptions
+{
+  width: 30%;
+  margin: 0 auto;
+  
+}
+
+h5
+{
+  color: black;
+}
+
+.CoachNames
+{
+  color: black;
+}
+
+/*---Evenement--*/
+
+.EventPresentation
+{
+  margin-top: 70px;
+}
+
+
+/*---  Contact ------*/
+.Contact
+{
+  padding-top: 5em;
+}
+
+h3
+{
+  padding-bottom: 2.5em;
+}
+
+#message
+{
+  min-height: 150px;
+}
+
+.blue
+{ 
+  color: #FBB7A2;
+}
+
+.form-control
+{
+  height: 50px;
+  font-size: 18px;
+}
+
+#contact-form input[type=submit]
+{
+  margin: 40px auto 0px;
+  display: block;
+}
+
+.button1
+{
+  border: 1px solid #ddd;
+  background: #9390A1;
+  color: #fff;
+  width: 100%;        
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in 0s;
+}
+.button1:hover
+{
+  background: #FBB7A2;
+  border-color:#9390A1;
+}
+
+/*Footer*/
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+ footer 
+ {
+  font-family: 'Rubik', sans-serif;
+  background: #FBB7A2;
+ }
+
+ .FooterContainer{
+  overflow: hidden;
+  margin-top: 100px;
+  background:#627482 ;
+  color: #FBB7A2;
+ }
+
+ .bold-text 
+ {
+  color: #989c9e ;
+ }
+
+ .social 
+ {
+  font-size: 21px;
+ }
