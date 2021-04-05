@@ -80,9 +80,9 @@ h2
 #carouselExampleCaptions
 {
   width: 30%;
-  margin: 0 auto;
-  
+  margin: 0 auto 20%;
 }
+
 
 h5
 {
@@ -95,12 +95,45 @@ h5
 }
 
 /*---Evenement--*/
+.EventTitle
+{
+  margin: 100px 0 100px;
+  text-align: center;
+  border-radius: 8px;
+  
+}
+h5
+{
+  font-size: 4vh;
+  text-decoration: underline;
+}
+
+.EventPresentation
+{
+  margin: 100px 0 100px;
+}
+
 
 .EventPresentation
 {
   margin-top: 70px;
 }
 
+.RacePicture
+{
+  align-items: center;
+}
+
+h6
+{
+  font-size: 3vh;
+  text-align:center;
+  margin-bottom: 100px;
+  border:solid ;
+  border-color: grey;
+  border-radius: 10px;
+  padding: 10px
+}
 
 /*---  Contact ------*/
 .Contact
@@ -154,27 +187,19 @@ h3
 }
 
 /*Footer*/
-@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+footer{
+  margin: 20px 0 10px;
+  background-color:#FBB7A2 ;
+  text-align: center; border-radius: 5px;
+}
 
- footer 
- {
-  font-family: 'Rubik', sans-serif;
-  background: #FBB7A2;
- }
+h4
+{padding-top: 10px;
+  font-size: 16px ;
+}
 
- .FooterContainer{
-  overflow: hidden;
-  margin-top: 100px;
-  background:#627482 ;
-  color: #FBB7A2;
- }
-
- .bold-text 
- {
-  color: #989c9e ;
- }
-
- .social 
- {
-  font-size: 21px;
- }
+.Copyright
+{
+  padding-top: 10px;
+  font-size: 10px;
+}
