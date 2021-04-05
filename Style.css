@@ -1,9 +1,18 @@
 
 /*---  Accueil ------*/
+.NameSite
+{
+  font-size: 1rem;
+}
 
+.MainPicture
+{
+  position: relative;
+  
+}
 .proverbe
 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: 'drop_stayregular';
   text-align: center;
   color:#9390A1;
@@ -15,8 +24,7 @@
 
 .HeaderImage
 {
-  padding-top: 55px;
-  width: 100vW;
+padding-top: 46px;
 }
 
 @font-face 
@@ -28,19 +36,6 @@
   font-style: normal;
 }
 
-.navbar-toggler .navbar-toggler-icon
-{
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-
-
-.navbar-toggler.navbar-toggler 
-{
-  border-color: rgb(255,102,203);
-  margin-right: 11px;
-}
-
 .ClubHistory
 {
   margin-top: 100px;
@@ -48,11 +43,8 @@
 }
 .ClubLogo
 {
-  width: 18vw;
-  text-align: center;
-  margin-top: 80px;
-  margin-bottom: 40px;
-  margin-left: 50px;
+  width: 60vw;
+
 }
 
 .TitlePresentation
@@ -69,7 +61,7 @@
   text-align: justify;
   font-size: 1em;
 }
-
+/*--Staff--*/
 h2
 {
   margin-bottom: 80px;
@@ -79,19 +71,25 @@ h2
 
 #carouselExampleCaptions
 {
-  width: 30%;
-  margin: 0 auto 20%;
+  margin: 0 auto 0;
 }
 
-
-h5
+.carousel-inner
 {
-  color: black;
+  height: 500px;
+  
 }
 
-.CoachNames
+.CoachSports
 {
-  color: black;
+  font-size: 2.6vh;
+  text-decoration: underline;
+  text-align:center;
+  margin-top: 60px;
+}
+#IconButton
+{
+  margin-bottom: 10px;
 }
 
 /*---Evenement--*/
@@ -102,11 +100,7 @@ h5
   border-radius: 8px;
   
 }
-h5
-{
-  font-size: 4vh;
-  text-decoration: underline;
-}
+
 
 .EventPresentation
 {
@@ -188,18 +182,29 @@ h3
 
 /*Footer*/
 footer{
-  margin: 20px 0 10px;
+
   background-color:#FBB7A2 ;
   text-align: center; border-radius: 5px;
 }
 
 h4
-{padding-top: 10px;
+{
+  margin-top: 10px;
   font-size: 16px ;
 }
 
 .Copyright
 {
-  padding-top: 10px;
+  
   font-size: 10px;
+}
+body {
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.Contact{
+	flex: 1;
 }
