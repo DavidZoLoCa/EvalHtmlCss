@@ -4,8 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content=" L'objectif de ce site est de présenter le club de triathlon 
+  <!-- SEO -->
+  <meta name="description" content="L'objectif de ce site est de présenter le club de triathlon 
   de Saint-Malo qui organise une compétition le 13 Juin 2021">
+  <!-- Bootstrap JavaScript Bundle with Popper -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" 
   rel="stylesheet" 
   integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" 
@@ -13,10 +15,101 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" 
   integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" 
   crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="style.css">
+  <!-- MyCSS -->
+  <link rel="stylesheet" href="Style.css">
   <title>Triathlon Saint-Malo</title>
 </head>
-<body>
-  
+<body class="body container-fluid">
+  <!-- Navbar -->
+  <header >
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light fixed-top" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./Index.html">Triathlon Club Saint-Malo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="./Index.html">Accueil</a>
+            <a class="nav-link" href="./Event.html">Evenement</a>
+            <a class="nav-link" href="./Contact.html">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="card bg-dark text-white " >
+      <img src="./Images/OceanMalouin.jpg" class="card-img img-fluid HeaderImage" alt="...">
+      <div class="card-img-overlay HeaderCard">
+        <h5 class="card-title"></h5>
+        <p class="proverbe card-text ">Leve toi avec determination, couche toi avec satisfaction...</p>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Club History-->
+    <article class="container ClubHistory"> 
+      <div class="card Presentation">
+        <div class="row">
+          <div class="col ">
+            <img class="img-fluid ClubLogo" src="./Images/LogoCote.png " alt="logo club">
+          </div>
+          <div class="col ">
+            <div class="card-body">
+              <h5 class="card-title TitlePresentation">Histoire du club</h5>
+                <p class="card-text">Créé en 1986, le Triathlon Club Saint-Malo est une association bien
+                ancrée dans le paysage sportif malouin. Notre club a été créé au tout début de 
+                l’aventure du triathlon en France et depuis, il n’a cessé Plus grand club de triathlon
+                de la région Ille-Et-Vilaine, il compte plus de 250 adhérents en 2020, de tous niveaux 
+                et de tous âges.</p><p> Chaque année, notre club accueille près de 80 nouveaux licenciés, 
+                démontrant ainsi son attractivité et son dynamisme.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+  </main>
+    <!-- Le Staff-->
+    <h2 > Le staff</h2>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img  src="./Images/Nat.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Coach Natation</h5>
+            <p class="CoachNames">Joey Tribbiani</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img  src="./Images/Bike.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Coach Vélo</h5>
+            <p class="CoachNames">Chandler Bing</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img  src="./Images/Cap.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Coach Course à pied</h5>
+            <p class="CoachNames">Ross Geller</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container-fluid FooterContainer pb-0 mb-0 justify-content-center text-light ">
+
+  </div>
 </body>
-</html>
+</html> 
